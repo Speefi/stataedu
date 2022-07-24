@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 21, 2022 at 07:23 AM
+-- Generation Time: Jul 24, 2022 at 07:03 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -111,9 +111,8 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('IAzY8bDk5cvSrkPG73tl54X9ZyPxZ3VAiobA4x6C', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiUXF3VzJRWlk4WUdFTWQ4QWIyRVJsYktnc2FUYTRqdWx2QWU1WG9RRiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzQ6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC91c2Vycy9lZGl0LzIiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1658313357),
-('MOyu13i2DxpLZWLefKIg6AfBljhlKmTPxv8zrNKQ', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiYkY5QWpFTFZrNVc5VzFwT1JRV04zQlIwM2M3MFloRVNRRGVKZThhNCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZWdpc3RlciI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1658311017),
-('XYFNbDBLKCrkhap8JdL2QFCEfdmcDdVZk8ur32qD', 4, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62', 'YTo2OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC91c2Vycy9hZGQiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjY6Il90b2tlbiI7czo0MDoiRWUwRktBOHhtOW1EOTdxY21XOVl1bVFTRXlBYnBIMzQxd1h1NEVXOCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6NDtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCRGMjJzWWwzWExjM0xVakVOOVQzaG51cVZ0SEliZ2JpTmZyc0ZjeU9pUWlnVS8wYlVnbHhZbSI7fQ==', 1658377857);
+('k4JzEIXXkcPpIJSwkTXYeXc6ImW6GTAuElUaKhLr', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiNHczZ2UyS0NNSEJ4bDFRQkdTb3NEdXIxaVFDUVlFNUtvbmhYT1dsZSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC91c2Vycy92aWV3Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1658565832),
+('YBetUZrwk4o7LVJ0RTXBMQo0RnOrjVoLPoTwEhX6', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoib24zRlhFUWxlckJYQ2hFWXlweFVuVGpoZXZyb0JaeDNtRHlyOHJMRCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC91c2Vycy92aWV3Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1658638876);
 
 -- --------------------------------------------------------
 
@@ -141,9 +140,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `usertype`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `current_team_id`, `profile_photo_path`, `created_at`, `updated_at`) VALUES
 (1, 'Admin', 'Admin', 'admin@stata.edu', NULL, '$2y$10$Cm3XNcBnZGq37PcB9xc2.OMuA/lQppYG3s94aQfx34P6afoSDt95a', NULL, NULL, NULL, '2022-07-16 02:06:09', '2022-07-16 02:06:09'),
-(2, 'User', 'Fahmid Alam', 'fahmid@stata.edu.bd', NULL, '$2y$10$wiOGt9bNDNXrZyTmnBQk0.D6Hit0OrQSItQJ72dbGWEqqE/mI1yVm', NULL, NULL, NULL, '2022-07-19 04:27:06', '2022-07-19 04:27:06'),
+(2, 'User', 'Fahmid Fahim', 'fahmid@stata.edu.bd', NULL, '$2y$10$wiOGt9bNDNXrZyTmnBQk0.D6Hit0OrQSItQJ72dbGWEqqE/mI1yVm', NULL, NULL, NULL, '2022-07-19 04:27:06', '2022-07-23 01:11:33'),
 (3, 'User', 'Ifaz Alam', 'ifaz@stata.edu.bd', NULL, '$2y$10$P9JNROftXQblzOXVzdYRhOHPKGrztWR8JGs0Lz.4eNHWnZVeu1aNK', NULL, NULL, NULL, '2022-07-19 23:50:30', '2022-07-19 23:50:30'),
-(4, NULL, 'Rafi', 'rafi@stata.edu.bd', NULL, '$2y$10$F22sYl3XLc3LUjEN9T3hnuqVtHIbgbiNfrsFcyOiQigU/0bUglxYm', NULL, NULL, NULL, '2022-07-20 22:29:43', '2022-07-20 22:29:43');
+(6, 'User', 'Rafi', 'rafi@stata.edu.bd', NULL, '$2y$10$0Ipv0xE8o/PPYviCJyI19e6S5n5kn4y6NwqlY3svkv8vl9g0gJZI6', NULL, NULL, NULL, '2022-07-23 23:01:16', '2022-07-23 23:01:16');
 
 --
 -- Indexes for dumped tables
@@ -217,7 +216,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
