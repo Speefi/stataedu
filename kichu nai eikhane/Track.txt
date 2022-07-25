@@ -5,3 +5,8 @@ Add usr
 dlt usr
 
 
+
+_____________________________________________________________________________________________
+.git
+
+git remote add origin https://github.com/Speefi/stataedu.git
